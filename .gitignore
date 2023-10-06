@@ -5,6 +5,11 @@ venv
 static
 media
 
+#envfiles
+.env
+.env.prod
+.env.prod.db
+
 #cache
 **/__pycache__
 

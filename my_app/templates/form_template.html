@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Моя форма</title>
+</head>
+<body>
+    <h1>Заполните форму</h1>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <label for="arg1">Аргумент 1:</label>
+        <input type="text" name="arg1" id="arg1">
+        <br>
+        <label for="arg2">Аргумент 2:</label>
+        <input type="text" name="arg2" id="arg2">
+        <br>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>

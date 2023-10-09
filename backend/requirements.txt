@@ -10,3 +10,4 @@ gunicorn==20.1.0
 requests
 
 drf-yasg
+django-celery-results
